@@ -1,0 +1,28 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    .skip-backward, .play, .skip-forward {
+        height: 100%;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        img {
+            height: 22px;
+            width: 22px;
+        }
+        &:hover {
+            cursor: pointer;
+            background-color: #4A4A4A;
+        }
+    }
+
+    .play img {
+        height: 25px;
+        width: 25px;
+    }
+
+}
